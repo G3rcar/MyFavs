@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    form#mainForm(action='/users/login',method='POST')
+        input#username(name='username')
+        br
+        input(type='submit',value='Send')
